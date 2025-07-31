@@ -39,6 +39,7 @@ function App() {
         <div className="container text-center">
           <main className="flex-grow-1 p-4">
             {/* input ด้านบน*/}
+            <h2>Satetaphol Lueangphetgnum</h2>
             <div className="m-2 p-2">
               <form className="row">
                 <div className="col-10">
