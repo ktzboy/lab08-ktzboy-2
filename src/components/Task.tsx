@@ -11,7 +11,9 @@ export default function Task({id,title,description,isDone}:TaskCardProps){
                     <p className="card-text"> {description} </p>
                   </div>
                   <div className="col-xs-3 col-sm-3 col-md-3 col-lg-2">
-                    <button className="btn btn-success me-2" onClick={() => {isDone = true} }>Done</button>
+                    <button className="btn btn-success me-2" onClick={() => {
+  console.log("isDone =", isDone);
+}}>Done</button>
                   </div>
                   <div className="col-xs-3 col-sm-3 col-md-3 col-lg-2">
                     <button className="btn btn-danger">Delete</button>
